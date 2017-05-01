@@ -12,7 +12,9 @@ public extension TMRouter {
     
     
     func module_One_jumpToControllerOne(from: UIViewController) -> Bool {
-        let i = UIStoryboard(name: "main", bundle: nil).instantiateViewController(withIdentifier: "OneViewController")
+        
+        let bundle = Bundle.init(for: OneViewController.self)
+        let i = UIStoryboard(name: "main", bundle: bundle).instantiateViewController(withIdentifier: "OneViewController")
         guard i is OneViewController else {
             return false
         }

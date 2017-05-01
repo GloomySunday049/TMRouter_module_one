@@ -1,11 +1,11 @@
 PODS:
-  - TMRouter (0.0.2)
+  - TMRouter (0.0.3)
 
 DEPENDENCIES:
   - TMRouter (~> 0.0.2)
 
 SPEC CHECKSUMS:
-  TMRouter: d31f6ef8112bca37fab339bb1b6601ce58d50b34
+  TMRouter: 1235f713d4550dd4ba6cb6163d0a7c07e618bd1e
 
 PODFILE CHECKSUM: 404482ddc79b3826c88fc0ef3e8f2c8366f83833
 
